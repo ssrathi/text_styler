@@ -1,6 +1,8 @@
 # text-styler
 Convert ASCII alphanumeric text to a random style using Unicode character normalization.
 
+This script uses the [Mathematical Alphanumeric Symbols](https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols) from the Unicode database to find a stylish looking replacement for each input character.
+
 ## Usage
     Usage: python text-styler.py "<text>"
 
