@@ -5,8 +5,8 @@ def readme():
         return f.read()
 
 setuptools.setup(
-    name='text_styler',
-    packages = ['text_styler'],
+    name='unicode_text_styler',
+    packages = setuptools.find_packages(),
     version='1.0.0',
     author='Shyamsunder Rathi',
     author_email='shyam29@gmail.com',
