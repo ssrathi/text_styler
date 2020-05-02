@@ -1,10 +1,10 @@
-from distutils.core import setup
+import setuptools
 
 def readme():
     with open('README.md') as f:
         return f.read()
 
-setup(
+setuptools.setup(
     name='text_styler',
     packages = ['text_styler'],
     version='1.0.0',
@@ -21,9 +21,9 @@ setup(
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python :: 3',
-        'Topic :: Software Development :: Unicode',
+        'Topic :: Software Development',
         'Operating System :: OS Independent',
-        'License :: MIT',
+        'License :: OSI Approved :: MIT License',
     ],
     python_requires='>=3',
 )
