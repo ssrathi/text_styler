@@ -6,7 +6,6 @@ This script uses the [Mathematical Alphanumeric Symbols](https://en.wikipedia.or
 ## CLI Usage
     Usage: python text_styler.py "<text>"
 
-## Examples
     $ python text_styler.py "Hello World"
     𝖧𝖾𝔩𝖑𝕠 𝑊𝙤𝒓𝒍𝘥
     
