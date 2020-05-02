@@ -11,6 +11,7 @@ setup(
     author='Shyamsunder Rathi',
     author_email='shyam29@gmail.com',
     url='https://github.com/ssrathi/text_styler',
+    download_url='https://github.com/ssrathi/text_styler/archive/1.0.0.tar.gz',
     description='Convert ASCII alphanumeric text to a random style using Unicode character normalization.',
     long_description=readme(),
     license='MIT',
