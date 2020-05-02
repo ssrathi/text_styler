@@ -1,1 +1,1 @@
-from TextStyler.text_styler import TextStyler
+from text_styler.text_styler import TextStyler
