@@ -14,6 +14,7 @@ setup(
     download_url='https://github.com/ssrathi/text_styler/archive/1.0.0.tar.gz',
     description='Convert ASCII alphanumeric text to a random style using Unicode character normalization.',
     long_description=readme(),
+    long_description_content_type="text/markdown",
     license='MIT',
     keywords=['unicode', 'text', 'styler', 'normalization'],
     include_package_data=True,
@@ -24,4 +25,5 @@ setup(
         'Operating System :: OS Independent',
         'License :: MIT',
     ],
+    python_requires='>=3',
 )
